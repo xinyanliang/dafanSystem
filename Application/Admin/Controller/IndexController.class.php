@@ -8,6 +8,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends Controller {
+	//默认页面
     public function index(){
 		if(session('role')=="老师"){
 			$this->display('Student/index');
