@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('TITLE')}</title>
+  <load file="__PUBLIC__/Home/Css/common.css" /> 
+  <script type="text/javascript" src="__PUBLIC__/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript">
+    function getPro(){
+		var url = "{:U('Project/get_project')}?pro_id=" + flagValue;
+		$.get(url,function(data,status){
+			alert("Data: " + data + "\nStatus: " + status);
+		});
+	}
+	
+	//setTimeout(getPro(), 2000);
+  </script>
+ </head>
+ <body>
+	<empty name="Think.session.user_id">
+		{:redirect('Index/index');}
+	<else /> 
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div  class="shadow1 center main1" style="position:relative">
+						谢谢您给<font color="#f00" size="5">{$qq['projectData'][0]['group']}</font>组项目评分<br/>
+						<font color="#f00" size="4"><b>&nbsp{$projectData[0]['proname']}</b></font><br/>
+						<a href={:U('get_project')}><img src="__PUBLIC__/Home/Image/huoqu.jpg" style="display:block;position:absolute;right:80px;bottom:10px;width:80px;height:50px" title="获取项目"></a>
+					</div>
+					<div  class="shadow1 center main2" >
+					   {$info}
+					</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </empty> 
+ </body>
+</html>
+ 

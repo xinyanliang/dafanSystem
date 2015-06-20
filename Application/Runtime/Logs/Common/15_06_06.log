@@ -1,0 +1,24 @@
+[ 2015-06-06T14:34:18+08:00 ] 115.24.12.186 /webexam/Exam/WyTimer.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:Webexam
+
+[ 2015-06-06T14:43:18+08:00 ] 115.24.12.111 /webexam/default.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+ERR: 无法加载模块:Webexam
+
+[ 2015-06-06T14:46:48+08:00 ] 115.24.12.177 /webexam/default.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:Webexam
+
+[ 2015-06-06T15:09:39+08:00 ] 115.24.12.176 /webexam/default.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载模块:Webexam
+

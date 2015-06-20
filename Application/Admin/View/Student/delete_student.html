@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else /> 
+		<include file="Public/top" /> 
+		<div class="con">
+			<include file="Public/left" /> 
+			<div class="main">
+			   <form action="__URL__/add_students" enctype="multipart/form-data" method="post" >
+					<input type="text" name="name" /><br/>
+					<input type="file" name="photo" /><br/>
+					<input type="submit" value="提交" >
+			   </form>
+			</div>
+		</div>
+		<include file="Public/foot" /> 
+	</if>
+ </body>
+</html>
+ 

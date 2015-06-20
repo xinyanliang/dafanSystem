@@ -1,0 +1,5 @@
+*{margin:0;padding:0}
+.menu{list-style:none}
+.menu li{color:#f00}
+.menu li ul{}
+.menu li ul li{padding-left:20px;}

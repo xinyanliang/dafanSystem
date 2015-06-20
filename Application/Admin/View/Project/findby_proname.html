@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div class="shadow1 center main1">
+						<a href="{:U('Project/findby_group')}" class="tianjiaa selfb">组号查询</a>
+						<a href="{:U('Project/findby_grade')}" class="tianjiaa selfb">年级查询</a>
+						<a href="{:U('Project/findby_gradeandgroup')}" class="tianjiaa selfb">年级组号查询</a>
+						<form action="{:U('findby_proname')}" method="post" class="font12">
+							名称查询：<input name="proname" style="margin-left:10px"><input type="submit">
+						</form>
+					</div>
+					<empty name="projectData">
+					<else /> 
+					<div  class="shadow1 center main22">
+						  <table width="70%"  border=1 cellspacing=0 bordercolor="#ccc" class="table_tr20">
+							<tr   align="middle"><th></th><th>编号</th><th>项目名称</th><th>年级</th><th>组号</th><th>分数</th><th>是否可打分</th><th>操作</th></tr>
+							<foreach name="projectData" item="vo" >
+								<tr   align="middle">
+								    <td><input type="checkbox" name="pro_id" value="pro_id[]"/></td>
+									<td>{$vo['pro_id']}</td>
+									<td>{$vo['proname']}</td>
+									<td>{$vo['grade']}</td>
+									<td>{$vo['group']}</td>
+									<td>{$vo['score']}</td>
+									<td><if condition="$vo['flag'] eq 0">否<else/>是</if></td>
+									<td><a href={:U('edit_student','user_id='.$vo['user_id'])}>修改</a>| <a href={:U('delete_project','pro_id='.$vo['pro_id'])}>删除</a></td>
+								</tr>
+							</foreach>	
+								<tr><td colspan="8"><a class="selectAll" style="curser="pointer"">全选</a> <a class="cancelAll">取消</a><a class="reverse">反选</a></td></td></tr>
+						  </table>
+					</div>
+					</empty>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </if> 
+ </body>
+</html>
+ 

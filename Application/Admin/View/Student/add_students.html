@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />
+		<div class="wrap">
+			<include file="Public/top" /> 
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div  class="shadow1 center main1">
+					   <form action="__URL__/add_students" enctype="multipart/form-data" method="post" >
+							<input type="text" name="name" /><br/>
+							<input type="file" name="photo" />
+							<input type="submit" value="提交" >
+					   </form>
+					</div>
+					
+					<div  class="shadow1 center main22" >
+						<font class="selfb">文件数据格式</font>
+					   <img src="__PUBLIC__/Admin/image/student.png"><br/><br/>
+					   <font class="selfb">导入文件后缀</font>
+					   <font style="color:#f00;font-size:30px">.csv</font>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<include file="Public/foot" /> 
+		</div>
+	</if>
+ </body>
+</html>
+ 

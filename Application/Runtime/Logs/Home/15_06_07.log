@@ -1,0 +1,892 @@
+[ 2015-06-07T19:43:31+08:00 ] 192.168.232.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\Program Files\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2015-06-07T19:43:33+08:00 ] 192.168.232.44 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422404012 )  [ RunTime:0.0007s ]
+
+[ 2015-06-07T19:43:33+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2015-06-07T19:43:39+08:00 ] 192.168.232.44 /Home/Student/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422404012' AND `pro_id` = 55  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: qq C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 49 行.
+NOTIC: [8] Undefined variable: projectData C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2015-06-07T19:50:55+08:00 ] 115.24.9.157 /Home/Index/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\Program Files\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2015-06-07T19:56:24+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2015-06-07T19:57:17+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2015-06-07T19:57:29+08:00 ] 192.168.232.44 /Home/Student/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: INSERT INTO `score` (`user_id`,`pro_id`,`varscore`,`comment`,`group`) VALUES ('201422400000','56','94','','4') [ RunTime:0.0177s ]
+SQL: UPDATE `pro` SET `count_people`=count_people+1 WHERE `flag` = 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422400000 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Home\Controller\StudentController.class.php 第 99 行.
+SQL: UPDATE `pro` SET `score`='56.4' WHERE ( pro_id=56 ) [ RunTime:0.0234s ]
+
+[ 2015-06-07T19:57:29+08:00 ] 192.168.232.44 /Home/Student/finishscore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: qq C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2015-06-07T19:58:14+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2015-06-07T19:58:24+08:00 ] 192.168.232.44 /Home/Student/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: INSERT INTO `score` (`user_id`,`pro_id`,`varscore`,`comment`,`group`) VALUES ('201422400000','56','95','非常不错','4') [ RunTime:0.0326s ]
+SQL: UPDATE `pro` SET `count_people`=count_people+1 WHERE `flag` = 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422400000 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Home\Controller\StudentController.class.php 第 99 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0089s ]
+
+[ 2015-06-07T19:58:24+08:00 ] 192.168.232.44 /Home/Student/finishscore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: qq C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2015-06-07T20:04:23+08:00 ] 192.168.232.44 /Home/Student/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 56  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: qq C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 49 行.
+NOTIC: [8] Undefined variable: projectData C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2015-06-07T20:04:30+08:00 ] 192.168.232.44 /Home/Index/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\Program Files\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2015-06-07T20:04:40+08:00 ] 192.168.232.44 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422404012 )  [ RunTime:0.0007s ]
+
+[ 2015-06-07T20:04:40+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2015-06-07T20:04:51+08:00 ] 192.168.232.44 /Home/Student/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422404012' AND `pro_id` = 56  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2015-06-07T20:04:56+08:00 ] 192.168.232.44 /Home/Student/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: INSERT INTO `score` (`user_id`,`pro_id`,`varscore`,`comment`,`group`) VALUES ('201422404012','56','90','','4') [ RunTime:0.0475s ]
+SQL: UPDATE `pro` SET `count_people`=count_people+1 WHERE `flag` = 1 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422404012 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='93' WHERE ( pro_id=56 ) [ RunTime:0.0245s ]
+
+[ 2015-06-07T20:04:56+08:00 ] 192.168.232.44 /Home/Student/finishscore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: qq C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2015-06-07T20:06:11+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2015-06-07T20:11:30+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2015-06-07T20:14:50+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2015-06-07T20:14:55+08:00 ] 192.168.232.44 /Home/Student/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 56  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: qq C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 49 行.
+NOTIC: [8] Undefined variable: projectData C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2015-06-07T20:15:28+08:00 ] 192.168.232.44 /Home/Index/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\Program Files\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-06-07T20:15:51+08:00 ] 192.168.232.44 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422404012 )  [ RunTime:0.0008s ]
+
+[ 2015-06-07T20:15:52+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2015-06-07T20:26:41+08:00 ] 192.168.232.44 /Home/Student/score.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0058s ]
+SQL: INSERT INTO `score` (`user_id`,`pro_id`,`varscore`,`comment`,`group`) VALUES ('201422404012','56','98','非常好，做的不错','4') [ RunTime:0.0477s ]
+SQL: UPDATE `pro` SET `count_people`=count_people+1 WHERE `flag` = 1 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422404012 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='96.2' WHERE ( pro_id=56 ) [ RunTime:0.0020s ]
+
+[ 2015-06-07T20:26:41+08:00 ] 192.168.232.44 /Home/Student/finishscore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: qq C:\Program Files\wamp\www\Application\Runtime\Cache\Home\4f07b84a8645ac98f3ae03e776eeef3b.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2015-06-07T20:26:46+08:00 ] 192.168.232.44 /Home/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2015-06-07T20:26:53+08:00 ] 192.168.232.44 /Home/Index/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\Program Files\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2015-06-07T20:26:58+08:00 ] 192.168.232.44 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=20142240000 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\Program Files\wamp\www\Application\Home\Controller\IndexController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/get_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = null AND `pro_id` = 56  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-06-07T20:27:11+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Student/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+
+[ 2015-06-07T20:27:12+08:00 ] 192.168.232.44 /Home/Index/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' C:\Program Files\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+

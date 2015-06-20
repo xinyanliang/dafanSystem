@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div class="shadow1 center main1 ">
+						<a href="{:U('Student/findby_user_id')}" class="tianjiaa selfa">学号查询</a>
+						<a href="{:U('Student/findby_bewtten_user_id')}" class="tianjiaa selfa">学号范围</a>
+						<a href="{:U('Student/findby_grade')}" class="tianjiaa selfa">年级查询</a>
+						<form action="{:U('findby_grade')}" method="post" class="font12">
+							年级查询：<input name="grade" style="margin-left:10px"><input type="submit">
+						</form>
+					</div>
+					
+					<div  class="shadow1 center main22" >
+						  <table width="70%"  border=1 cellspacing=0 bordercolor="#ccc" class="table_tr20">
+							<tr   align="middle"><th>学号</th><th>年级</th><th>组号</th><th>角色</th><th>编辑</th></tr>
+							<foreach name="userData" item="vo" >
+								<tr   align="middle">
+									<td>{$vo['user_id']}</td>
+									<td>{$vo['grade']}</td>
+									<td>{$vo['group']}</td>
+									<td>{$vo.role}</td>
+									<td><a href={:U('edit_student','user_id='.$vo['user_id'])}>修改</a>| <a href={:U('delete_student','user_id='.$vo['user_id'])}>删除</a></td>
+								</tr>
+							</foreach>			
+						  </table>
+						  <div  class="pages">
+							 {$page}
+						  </div>
+					</div>
+					
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </if> 
+ </body>
+</html>
+ 

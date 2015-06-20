@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+  <script type="text/javascript" src="__PUBLIC__/jquery-1.8.2.min.js"></script>
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div  class="shadow1 center main3" >
+					    <form action="{:U('Config/index')}" method="post" name="myform">
+							<input type="hidden" name="id" value={$config['id']}/>
+							<div class="magtop5"></div>
+							<table width="70%"  border=1 cellspacing=0 bordercolor="#ccc" class="table_tr">
+								<tr   align="left" ><td colspan=2 class="selfb">角色分数权重设置：</td></tr>
+								<tr   align="middle" >
+									<td >老师分数权重</td><td><input type="text" name="teacher_weight" placeholder={$config['teacher_weight']}></td></tr>
+								<tr   align="middle">
+									<td>学生分数权重</td><td><input type="text" name="student_weight" placeholder={$config['student_weight']}></td></tr>
+							</table>
+							<div class="magtop5" ></div>
+							<a  href="#" onclick="document.myform.submit()";><img src="__PUBLIC__/Admin/Image/tijiao.jpg" style="width:100px;height:40px;"align="bottom"></a>
+						</form>
+						<div style="padding-left:500px" class="pages">
+							 {$page}
+						 </div>
+					</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </if> 
+ </body>
+</html>
+ 

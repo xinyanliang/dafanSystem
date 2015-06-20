@@ -1,0 +1,2489 @@
+[ 2015-06-07T19:48:46+08:00 ] 192.168.232.44 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2015-06-07T19:49:29+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=20142240000 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 C:\Program Files\wamp\www\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+
+[ 2015-06-07T19:49:48+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=20142240000 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\Program Files\wamp\www\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+
+[ 2015-06-07T19:50:09+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=20142240000 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\Program Files\wamp\www\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+
+[ 2015-06-07T19:50:13+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=20142240000 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\Program Files\wamp\www\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-06-07T19:50:16+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2015-06-07T19:50:22+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=20142240000 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\Program Files\wamp\www\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+
+[ 2015-06-07T19:50:25+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001538s ]
+
+[ 2015-06-07T19:51:00+08:00 ] 115.24.9.157 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2015-06-07T19:51:11+08:00 ] 115.24.9.157 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422400000 )  [ RunTime:0.0007s ]
+
+[ 2015-06-07T19:51:12+08:00 ] 115.24.9.157 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2015-06-07T19:51:38+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422400000 )  [ RunTime:0.0007s ]
+
+[ 2015-06-07T19:51:39+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2015-06-07T19:52:05+08:00 ] 192.168.232.44 /Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant teacher_weight - assumed 'teacher_weight' C:\Program Files\wamp\www\Application\Admin\Controller\ConfigController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant student_weight - assumed 'student_weight' C:\Program Files\wamp\www\Application\Admin\Controller\ConfigController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined variable: page C:\Program Files\wamp\www\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2015-06-07T19:52:11+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2015-06-07T19:52:15+08:00 ] 192.168.232.44 /Admin/Student/add_student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2015-06-07T19:52:20+08:00 ] 192.168.232.44 /Admin/Student/findby_user_id.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2015-06-07T19:53:00+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0007s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0026s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0183s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='75.9' WHERE ( pro_id=55 ) [ RunTime:0.0021s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=56 ) [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2015-06-07T19:53:04+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2015-06-07T19:53:20+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0202s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0027s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0015s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='75.9' WHERE ( pro_id=55 ) [ RunTime:0.0024s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=56 ) [ RunTime:0.0429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2015-06-07T19:53:31+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2015-06-07T19:54:09+08:00 ] 192.168.232.44 /Admin/Project/findby_proname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2015-06-07T19:54:09+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2015-06-07T19:54:09+08:00 ] 192.168.232.44 /Admin/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 55  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,12   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2015-06-07T19:54:09+08:00 ] 192.168.232.44 /Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant teacher_weight - assumed 'teacher_weight' C:\Program Files\wamp\www\Application\Admin\Controller\ConfigController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant student_weight - assumed 'student_weight' C:\Program Files\wamp\www\Application\Admin\Controller\ConfigController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined variable: page C:\Program Files\wamp\www\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-06-07T19:54:11+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2015-06-07T19:54:23+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-06-07T19:54:28+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2015-06-07T19:54:30+08:00 ] 192.168.232.44 /Admin/Student/add_student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2015-06-07T19:54:33+08:00 ] 192.168.232.44 /Admin/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 55  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,12   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2015-06-07T19:54:38+08:00 ] 192.168.232.44 /Admin/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 55  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,12   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2015-06-07T19:54:39+08:00 ] 192.168.232.44 /Admin/Project/add_project.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2015-06-07T19:54:42+08:00 ] 192.168.232.44 /Admin/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 55  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pro` LIMIT 0,12   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2015-06-07T19:54:44+08:00 ] 192.168.232.44 /Admin/Project/findby_proname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2015-06-07T19:54:47+08:00 ] 192.168.232.44 /Admin/Project/findby_group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2015-06-07T19:54:50+08:00 ] 192.168.232.44 /Admin/Project/findby_group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` WHERE `group` = '4' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pro` WHERE `group` = '4' LIMIT 0,12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Undefined index: user_id C:\Program Files\wamp\www\Application\Runtime\Cache\Admin\0c6d9661139279d70edf79bf591ee838.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2015-06-07T19:54:57+08:00 ] 192.168.232.44 /Admin/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 55  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,12   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-06-07T19:56:18+08:00 ] 192.168.232.44 /Admin/Project/edit_flag.html?pro_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: UPDATE `pro` SET `flag`='1' WHERE `pro_id` = 56 [ RunTime:0.0025s ]
+SQL: UPDATE `pro` SET `flag`='0' WHERE `pro_id` <> '56' [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pro` WHERE `pro_id` = 56  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2015-06-07T19:56:19+08:00 ] 192.168.232.44 /Admin/Project/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` WHERE `user_id` = '201422400000' AND `pro_id` = 56  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,12   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pro` WHERE `flag` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2015-06-07T19:56:28+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2015-06-07T19:57:53+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-06-07T19:57:56+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2015-06-07T19:58:03+08:00 ] 192.168.232.44 /Admin/Score/delete/user_id/201422400000/pro_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\Program Files\wamp\www\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `score` WHERE `pro_id` = 56 AND `user_id` = '201422400000' [ RunTime:0.0026s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 65 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 65 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=56 ) [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2015-06-07T19:58:04+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2015-06-07T19:58:27+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2015-06-07T19:58:29+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0353s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0023s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='75.9' WHERE ( pro_id=55 ) [ RunTime:0.0020s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2015-06-07T19:58:31+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2015-06-07T19:58:37+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0007s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0023s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0020s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0015s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='75.9' WHERE ( pro_id=55 ) [ RunTime:0.0018s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2015-06-07T20:02:35+08:00 ] 192.168.232.44 /Admin/Score/delete/user_id/201422400000/pro_id/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0048s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\Program Files\wamp\www\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `score` WHERE `pro_id` = 55 AND `user_id` = '201422400000' [ RunTime:0.0433s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 65 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2015-06-07T20:02:36+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2015-06-07T20:03:00+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0007s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0497s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0026s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0311s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0024s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2015-06-07T20:03:14+08:00 ] 192.168.232.44 /Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant teacher_weight - assumed 'teacher_weight' C:\Program Files\wamp\www\Application\Admin\Controller\ConfigController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant student_weight - assumed 'student_weight' C:\Program Files\wamp\www\Application\Admin\Controller\ConfigController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined variable: page C:\Program Files\wamp\www\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2015-06-07T20:03:26+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0023s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0022s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0022s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0018s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2015-06-07T20:03:58+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0504s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0024s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0015s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2015-06-07T20:05:07+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0007s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0047s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0017s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0022s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='93' WHERE ( pro_id=56 ) [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-06-07T20:05:07+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2015-06-07T20:05:21+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=20142240000 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 C:\Program Files\wamp\www\Application\Admin\Controller\IndexController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-06-07T20:05:22+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2015-06-07T20:05:33+08:00 ] 192.168.232.44 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( user_id=201422400000 )  [ RunTime:0.0007s ]
+
+[ 2015-06-07T20:05:33+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-06-07T20:05:35+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0349s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0031s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0017s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0024s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='93' WHERE ( pro_id=56 ) [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2015-06-07T20:05:55+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2015-06-07T20:06:17+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2015-06-07T20:06:18+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0350s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0017s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0017s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0020s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pro` SET `score`='93' WHERE ( pro_id=56 ) [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2015-06-07T20:06:32+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2015-06-07T20:07:24+08:00 ] 192.168.232.44 /Admin/Score/delete/user_id/201422404012/pro_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+NOTIC: [2] Illegal offset type in isset or empty C:\Program Files\wamp\www\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `score` WHERE `pro_id` = 56 AND `user_id` = '201422404012' [ RunTime:0.0266s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 65 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2015-06-07T20:07:25+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2015-06-07T20:07:27+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0023s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0023s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0023s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2015-06-07T20:10:06+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2015-06-07T20:10:10+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0358s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0024s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0154s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0098s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2015-06-07T20:10:18+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2015-06-07T20:10:21+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0049s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0018s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0018s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2015-06-07T20:10:34+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2015-06-07T20:10:35+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0058s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0018s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0322s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2015-06-07T20:11:02+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2015-06-07T20:11:20+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0498s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0024s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0020s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2015-06-07T20:13:46+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2015-06-07T20:13:49+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0671s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0019s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0169s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0017s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2015-06-07T20:13:54+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-06-07T20:14:33+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2015-06-07T20:14:37+08:00 ] 192.168.232.44 /Admin/Score/saveScore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `config`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `pro`  [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '52' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=52 ) [ RunTime:0.0205s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '53' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=53 ) [ RunTime:0.0038s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '54' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='0' WHERE ( pro_id=54 ) [ RunTime:0.0019s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '55' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='30.9' WHERE ( pro_id=55 ) [ RunTime:0.0016s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '老师' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(varscore) AS tp_sum FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id  WHERE `pro_id` = '56' AND `role` = '学生' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Division by zero C:\Program Files\wamp\www\Application\Admin\Controller\ScoreController.class.php 第 108 行.
+SQL: UPDATE `pro` SET `score`='57' WHERE ( pro_id=56 ) [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pro` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pro` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2015-06-07T20:15:06+08:00 ] 192.168.232.44 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` LIMIT 0,12   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2015-06-07T20:15:08+08:00 ] 192.168.232.44 /Admin/Score/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `score` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `score` INNER JOIN user ON score.user_id = user.user_id INNER JOIN  pro ON pro.pro_id = score.pro_id  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+

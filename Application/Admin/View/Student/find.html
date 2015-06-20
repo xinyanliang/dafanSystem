@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />		 
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+				<div style="margin:30px 100px">
+					<a href="">学号查询</a>
+					<a href="">年级查询</a>
+					<a href="">学号范围</a>
+					<p class="magtop5"></p>
+					 <form action="{:U(find)}" method="post">
+						学号查询：<input name="user_id" style="margin-left:10px"><br/>
+						<p class="magtop5"></p>
+						年级查询：<input name="grade" style="margin-left:10px"><br/>
+						<p class="magtop5"></p>
+						学号范围：<input name="user_id_first" style="margin-left:10px"><input name="user_id_last" style="margin-left:10px"><br/>
+						<p class="magtop5"></p>
+						<input type="submit">
+					</form>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </if> 
+ </body>
+</html>
+ 

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+  <script type="text/javascript" src="__PUBLIC__/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript">
+	$(function(){
+		$("input[name='flag']").click(function(){
+							var flagValue=$(this).val();
+							var url = "{:U('Project/edit_flag')}?pro_id=" + flagValue;  
+							window.location=url;
+		});
+		$(".selectAll").click(function(){
+			$("[name='pro_id[]']").attr("checked","true");//全选
+		});
+		$(".cancelAll").click(function(){
+			$("[name='pro_id[]']").removeAttr("checked")//取消全选
+		});
+		$(".reverse").click(function(){
+		     $("[name='pro_id[]']").each(function(){
+				if($(this).attr("checked")){
+					$(this).removeAttr("checked");   
+				}else{
+					$(this).attr("checked","true"); }
+				});
+		});
+		$(".tijiao").click(function(){
+			var score=$("[name='score']").val();
+			if(score>100 || score<0){
+				$(".reminde").addClass("appear");
+				$(".reminde").removeClass("disappear");
+				$("[name='score']").val("");
+				$("[name='score']").focus();
+			}else{
+				$(".reminde").addClass("disappear");
+				$(".reminde").removeClass("appear");
+				$("[name='myform1']").submit();
+			}
+		});
+	});
+  
+  </script>
+  <style  type="text/css">
+	.disappear{display:none;}
+	.appear{display:inline;color:#f00;font-size:12px}
+  </style>
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div  class="shadow1 center main1">
+						现在评测的是<font color="#f00" class="selfb">{$projectData1['group']}</font>组的
+						<font color="#f00" class="selfb">{$projectData1['proname']}</font><br/>
+						<div style="width:400px;height:40px;position:relative">
+						<if condition="$info eq '您已经参与过该项目的评分！！！'">
+							{$info}
+						<else/>
+						
+							<form name="myform1" action="{:U('Student/score')}" method="post">
+								<input style="border:1px solid #11b6ec;height:25px;width:80px;line-height:25px;font-size:23px;color:#f00;text-align:center;outline:none;" class="radius8" type="text" name="score" placeholder="打分"/>
+								<span class="reminde disappear" >&nbsp&nbsp分数必须在0-100!!!</span>
+								<a href="#"  class="tijiao"><img src="__PUBLIC__/Home/Image/dafen.jpg" style="width:30px;height:30px;position:absolute;bottom:7px;padding-left:20px" align="bottom"></a>	
+							</form>
+						</if>
+						</div>
+					</div>
+					<div  class="shadow1 center main22" >
+					    <form action="{:U('delete_projects')}" method="post" name="myform">
+						  <table width="70%"  border=1 cellspacing=0 bordercolor="#ccc" class="table_tr20">
+							<tr align="middle"><th></th><th>编号</th><th>项目名称</th><th>年级</th><th>组号</th><th>分数</th><th>是否可打分</th><th>操作</th></tr>
+							<foreach name="projectData" item="vo" >
+								<tr   align="middle">
+								    <td><input type="checkbox" name="pro_id[]" value="{$vo['pro_id']}"/></td>
+									<td>{$vo['pro_id']}</td>
+									<td>{$vo['proname']}</td>
+									<td>{$vo['grade']}</td>
+									<td>{$vo['group']}</td>
+									<td>{$vo['score']}</td>
+									<td><input id="xin" type="radio" name="flag" value="{$vo['pro_id']}"/></td>
+									<td><a href={:U('edit_project','pro_id='.$vo['pro_id'])}>修改</a>| <a href={:U('delete_project','pro_id='.$vo['pro_id'])}>删除</a></td>
+								</tr>
+							</foreach>	
+							<tr><td colspan="8"><a class="selectAll tianjiaa" style="cursor:pointer">全选</a> <a class="cancelAll tianjiaa" style="cursor:pointer">取消</a>
+									<a  style="cursor:pointer" href="#" onclick="document.myform.submit()"; class="tianjiaa">全部删除</a>
+								</td></tr>
+						  </table>
+						</form>
+						 <div  class="pages">
+							 {$page}
+						 </div>
+					</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </if> 
+ </body>
+</html>
+ 

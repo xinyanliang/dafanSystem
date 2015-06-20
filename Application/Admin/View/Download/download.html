@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div class="shadow1 center main11">
+						 <p class="tianjiaa selfa">下载区域</p>
+					</div>
+					<div  class="shadow1 center main2">
+						<ol style="padding-top:20px;padding-left:40px">
+							<li style="padding-top:20px;color:#56abe4"><a href="__PUBLIC__/Admin/pro.csv" style="color:#56abe4">项目信息.csv <img src="__PUBLIC__/Admin/image/xiazai.png" style="padding-left:100px;text-align:center"></a></li>
+							<li style="padding-top:20px;color:#56abe4"><a href="__PUBLIC__/Admin/student.csv" style="color:#56abe4">学生信息.csv <img src="__PUBLIC__/Admin/image/xiazai.png" style="padding-left:100px;text-align:center"></a></li>
+						</ol>
+					</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </if> 
+ </body>
+</html>
+ 

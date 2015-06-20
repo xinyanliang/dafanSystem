@@ -1,0 +1,318 @@
+[ 2015-05-21T11:44:12+08:00 ] ::1 /dafen/index.php/Home/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-05-21T11:44:57+08:00 ] ::1 /dafen/index.php/Home/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+
+[ 2015-05-21T11:45:06+08:00 ] ::1 /dafen/index.php/Home/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Public/top.html): failed to open stream: No such file or directory F:\Program Files (x86)\wamp\www\dafen\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Public/left.html): failed to open stream: No such file or directory F:\Program Files (x86)\wamp\www\dafen\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+NOTIC: [2] file_get_contents(./Application/Home/View/Public/foot.html): failed to open stream: No such file or directory F:\Program Files (x86)\wamp\www\dafen\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: page F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2015-05-21T11:48:33+08:00 ] ::1 /dafen/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Undefined variable: page F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2015-05-21T11:48:46+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Undefined variable: page F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2015-05-21T11:50:01+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-05-21T11:50:26+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2015-05-21T11:51:46+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2015-05-21T11:53:04+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2015-05-21T21:06:26+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2015-05-21T21:06:27+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-05-21T21:07:06+08:00 ] ::1 /dafen/index.php/Home/Student/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+NOTIC: [2] Division by zero F:\Program Files (x86)\wamp\www\dafen\Application\Runtime\Cache\Home\5e6caf1f921dc2090a81407240a42a8e.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-05-21T22:12:01+08:00 ] ::1 /dafen/Home/Student/findby_pro_id.html?pro_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pro` WHERE `pro_id` = 5  [ RunTime:0.0002s ]
+
+[ 2015-05-21T22:13:12+08:00 ] ::1 /dafen/Home/Student/findby_pro_id.html?pro_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `pro` WHERE `pro_id` = 5  [ RunTime:0.0002s ]
+
+[ 2015-05-21T22:14:48+08:00 ] ::1 /dafen/Home/Student/findby_pro_id.html?pro_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `pro` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pro` WHERE `pro_id` = 5  [ RunTime:0.0002s ]
+

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>登陆</title>
+  <script type="text/javascript" src="__PUBLIC__/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript">
+		$(function(){
+			$(".verify").click(function(){
+				var verifyimg = $(this).attr("src");  
+				if( verifyimg.indexOf('?')>0){  
+					$(this).attr("src", verifyimg+'&random='+Math.random());  
+				}else{  
+					$(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());  
+				}				
+			});
+		});
+  </script>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+  <style>
+	.con{background-image:url(__PUBLIC__/Admin/Image/login.jpg);width:995px;height:591px;margin:0 auto;margin-top:30px;}
+	.con .login{position:relative;left:500px;top:200px;}
+	.verify{cursor:pointer}
+  </style>
+ </head>
+ <body>
+
+    <div class="con">
+		<div class="login">
+			<form action="{:U(index)}" method="post">
+				工  号：<input name="user_id" style="margin-left:10px"><br/>
+				<p class="magtop5"></p>
+				密  码：<input type="password" name="password" style="margin-left:10px"><br/>
+				<p class="magtop5"></p>
+				验证码：<input name="varify" style="width:50px"><img class="verify" title="点击刷新验证码" src="{:U('Common/verify')}"/><br/>
+				<p class="magtop5"></p>
+				<input type="submit">
+			</form>
+		</div>
+	</div>
+	<include file="Public/foot" /> 
+</body>
+</html>
+ 

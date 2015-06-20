@@ -1,0 +1,12 @@
+<div class="top">
+	<div class="top-con">
+		<font style="display:block;position:absolute;right:180px;bottom:35px">欢迎<font color="#f00" style="font-weight:bold;font-size:20px;font-family:'华文行楷'">&nbsp{$Think.session.name}</font>
+		<if condition="$Think.session.role eq '老师'">老师<else/>同学</if></font>
+		<if condition="$Think.session.role eq '老师'">
+			<a href="{:U('Admin/Student/index')}"><img width="40px" height="50px" src="__PUBLIC__/Admin/Image/tubiao1.jpg" style="position:absolute;right:115px;top:14px"></a>
+		</if>
+		<a href="{:U('Student/edit_password')}" style="position:absolute;right:380px;top:45px;color:#77f;font-size:20px;font-family:'华文行楷'">修改密码</a>
+		<a href="{:U('Student/about')}" style="position:absolute;right:320px;top:45px;color:#77f;font-size:20px;font-family:'华文行楷'">关于</a>
+		<a href="{:U('Index/loginout')}"><img width="40px" height="50px" src="__PUBLIC__/Admin/Image/tubiao2.jpg" style="position:absolute;right:45px;top:14px"></a>
+	</div>
+</div>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>{:C('ADMINTITLE')}</title>
+  <load file="__PUBLIC__/Admin/Css/common.css" /> 
+ </head>
+ <body>
+	<if condition="$Think.session.role neq '老师'">
+		{:redirect(U('Index/index'))}
+	<else />
+		<div class="wrap">
+		    <include file="Public/top" />
+			<div class="con">
+				<include file="Public/left" /> 
+				<div class="main">
+					<div class="shadow1 center main11">
+						 <a href="{:U('add_projects')}" class="tianjiaa selfa">批量导入项目信息</a>
+					</div>
+					<div  class="shadow1 center main2">
+						<form action="{:U('add_project')}" method="post" name="myform">
+						  <table width="70%"  border=1 cellspacing=0 bordercolor="#ccc" class="table_tr20">
+								<tr   align="middle"><td>项目名称：</td><td><input name="proname" style="margin-left:10px" value="" class="radius8 border1"></td></tr>
+								<tr   align="middle"><td>年级:</td><td><input name="grade" style="margin-left:10px" value="" class="radius8 border1"></td></tr>
+								<tr   align="middle"><td>组号:</td><td><input name="group" style="margin-left:10px" value="" class="radius8 border1"></td></tr>
+								<tr   align="middle"><td>打分总人数:</td><td><input name="peoplenums" style="margin-left:10px" value="" class="radius8 border1"></td></tr>
+						  </table>
+						  <div class="magtop5"></div>
+						  <a  href="#" onclick="document.myform.submit()";><img src="__PUBLIC__/Admin/Image/tijiao.jpg" style="width:100px;height:40px;"align="bottom"></a>
+						</form>
+					</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<include file="Public/foot" /> 
+	</div>
+    </if> 
+ </body>
+</html>
+ 
