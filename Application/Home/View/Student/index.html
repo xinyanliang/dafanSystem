@@ -6,7 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>{:C('TITLE')}</title>
+  <title><{:C('TITLE')}></title>
   <load file="__PUBLIC__/Home/Css/common.css" /> 
   
   <script type="text/javascript" src="__PUBLIC__/jquery-1.8.2.min.js"></script>
@@ -46,19 +46,19 @@
 						$(".reminde").addClass("disappear");
 						$(".reminde").removeClass("appear");
 						$("[name='myform']").submit();
-				}				
+				}			
 			}
 		});
     });
   </script>
   <style  type="text/css">
-	.disappear{display:none;}
-	.appear{display:inline;color:#f00;font-size:12px}
+	.disappear<{display:none;}>
+	.appear<{display:inline;color:#f00;font-size:12px}>
   </style>
  </head>
  <body>
 	<empty name="Think.session.user_id">
-		{:redirect('Index/index');}
+		<{:redirect('Index/index');}>
 	<else /> 
 		<div class="wrap">
 		    <include file="Public/top" />
@@ -66,20 +66,20 @@
 				<include file="Public/left" /> 
 				<div class="main">
 					<div  class="shadow1 center main1" style="position:relative">
-						现在评测的是<font color="#f00" style="font-size:20px;font-family:'华文行楷'" size="5">{$projectData[0]['group']}</font>组项目：<br/>
-						<font color="#f00"  style="font-size:20px;font-family:'华文行楷'" size="4"><b>&nbsp{$projectData[0]['proname']}</b></font><br/>
-						<a href={:U('Student/get_project')}><img src="__PUBLIC__/Home/Image/huoqu.jpg" style="display:block;position:absolute;right:80px;bottom:10px;width:100px;height:80px" title="获取项目"></a>
+						现在评测的是<font color="#f00" style="font-size:20px;font-family:'华文行楷'" size="5"><{$projectData[0]['group']}></font>组项目：<br/>
+						<font color="#f00"  style="font-size:20px;font-family:'华文行楷'" size="4"><b>&nbsp<{$projectData[0]['proname']}></b></font><br/>
+						<a href=<{:U('Student/get_project')}>><img src="__PUBLIC__/Home/Image/huoqu.jpg" style="display:block;position:absolute;right:80px;bottom:10px;width:100px;height:80px" title="获取项目"></a>
 					</div>
 					<div  class="shadow1 center main2" >
-					    <form name="myform" action="{:U('score')}" method="post">
+					    <form name="myform" action="<{:U('score')}>" method="post">
 						  <table width="500px"  border=1 cellspacing=0 bordercolor="#f00" class="table_tr20">
 							<tr align="middle"><th>项目名称</th><th>年级</th><th>组号</th></tr>
 							<foreach name="projectData" item="vo" >
 								<tr   align="middle">
-								    <input type="hidden" name="pro_id" value="{$vo['pro_id']}"/>
-									<td>{$vo['proname']}</td>
-									<td>{$vo['grade']}</td>
-									<td>{$vo['group']}</td>
+								    <input type="hidden" name="pro_id" value="<{$vo['pro_id']}>"/>
+									<td><{$vo['proname']}></td>
+									<td><{$vo['grade']}></td>
+									<td><{$vo['group']}></td>
 								</tr>
 							</foreach>	
 						  </table>

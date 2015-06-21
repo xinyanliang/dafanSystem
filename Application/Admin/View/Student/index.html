@@ -6,7 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>{:C('ADMINTITLE')}</title>
+  <title><{:C('ADMINTITLE')}></title>
   <load file="__PUBLIC__/Admin/Css/common.css" /> 
   <script type="text/javascript" src="__PUBLIC__/jquery-1.8.2.min.js"></script>
   <script type="text/javascript">
@@ -31,7 +31,7 @@
  </head>
  <body>
 	<if condition="$Think.session.role neq '老师'">
-		{:redirect(U('Index/index'))}
+		<{:redirect(U('Index/index'))}>
 	<else />
 		<div class="wrap">
 		    <include file="Public/top" />
@@ -40,18 +40,18 @@
 				<div class="main">
 					<div  class="shadow1 center main11  selfb">学生信息</div>
 					<div  class="shadow1 center main2" >
-					   <form name="myform" action="{:U('delete_students')}" method="post">
+					   <form name="myform" action="<{:U('delete_students')}>" method="post">
 						  <table width="70%"  border=1 cellspacing=0 bordercolor="#ccc" class="table_tr20">
 							<tr   align="middle"><th></th><th>学号</th><th>姓名</th><th>年级</th><th>组号</th><th>角色</th><th>编辑</th></tr>
 								<foreach name="userData" item="vo" >
 									<tr   align="middle">
-										<td><input type="checkbox" name="user_id[]" value="{$vo['user_id']}"/></td>
-										<td>{$vo['user_id']}</td>
-										<td>{$vo['name']}</td>
-										<td>{$vo['grade']}</td>
-										<td>{$vo['group']}</td>
-										<td>{$vo.role}</td>
-										<td><a href={:U('edit_student','user_id='.$vo['user_id'])}>修改</a>| <a href={:U('delete_student','user_id='.$vo['user_id'])}>删除</a></td>
+										<td><input type="checkbox" name="user_id[]" value="<{$vo['user_id']}>"/></td>
+										<td><{$vo['user_id']}></td>
+										<td><{$vo['name']}></td>
+										<td><{$vo['grade']}></td>
+										<td><{$vo['group']}></td>
+										<td><{$vo.role}></td>
+										<td><a href=<{:U('edit_student','user_id='.$vo['user_id'])}>>修改</a>| <a href=<{:U('delete_student','user_id='.$vo['user_id'])}>>删除</a></td>
 									</tr>
 								</foreach>	
 								<tr><td colspan="7"><a class="selectAll tianjiaa" style="cursor:pointer">全选</a> <a class="cancelAll tianjiaa" style="cursor:pointer">取消</a>
@@ -61,7 +61,7 @@
 						  </table>
 						</form>
 						 <div  class="pages">
-							 {$page}
+							 <{$page}>
 						 </div>
 					</div>
 			</div>

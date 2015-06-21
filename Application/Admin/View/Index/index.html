@@ -6,7 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>{:C('ADMINTITLE')}</title>
+  <title><{:C('ADMINTITLE')}></title>
   <script type="text/javascript" src="__PUBLIC__/jquery-1.8.2.min.js"></script>
   <script type="text/javascript">
 		$(function(){
@@ -24,14 +24,14 @@
   <style>
 	.con{background-image:url(__PUBLIC__/Admin/Image/login.jpg);width:995px;height:591px;margin:0 auto;margin-top:30px;}
 	.con .login{position:relative;left:450px;top:200px;}
-	.verify{cursor:pointer}
+	.verify<{cursor:pointer}
   </style>
  </head>
  <body>
 
     <div class="con">
 		<div class="login">
-			<form action="{:U('index')}" method="post" name="myform" class="font12" style="width:280px;color:#0055f0">
+			<form action="<{:U('index')}>" method="post" name="myform" class="font12" style="width:280px;color:#0055f0">
 			    <fieldset style="padding:20px 30px;" class=" border1 ">
 					<legend style="font-size:20px;color:#0055f0">教师登陆</legend>
 					工  号：<input name="user_id" style="margin-left:10px;border:2px solid #0055f0;padding-left:5px;outline:none;" class="radius8"><br/>
