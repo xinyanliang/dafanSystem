@@ -18,8 +18,6 @@
 				alert("请先获取项目！");
 				return 0;
 			}
-			
-			
 			var score=$("[name='score']").val();
 			if(isNaN(score)){
 				alert("分数必须为数字！！！"); return 0;
@@ -31,11 +29,11 @@
 				$("[name='score']").focus();
 			}else{
 				var comment=$("[name='comment']").val();
-				if(score>95 || score<70){
+				if(score>"<{$configData['high_score_comment']}>" || score<"<{$configData['low_score_comment']}>"){
 					if(comment.length==0){
 						alert("分数大于95或小于70，必须写出原因(原因必须大于8个字)！！"); return 0;
 					}
-					if(comment.length<8){
+					if(comment.length<"<{$configData['comment_low_length']}>"){
 						alert("原因必须大于8个字！"); return 0;
 					}else{
 						$(".reminde").addClass("disappear");
