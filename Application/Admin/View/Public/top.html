@@ -1,8 +1,8 @@
 <div class="top">
 	<div class="top-con">
-		<font style="display:block;position:absolute;right:200px;bottom:35px">欢迎<font color="#f00" style="font-weight:bold;font-size:20px;font-family:'华文行楷'">&nbsp{$Think.session.name}</font>
+		<font style="display:block;position:absolute;right:200px;bottom:35px">欢迎<font color="#f00" style="font-weight:bold;font-size:20px;font-family:'华文行楷'">&nbsp<{$Think.session.name}></font>
 		<if condition="$Think.session.role eq '老师'">老师<else/>同学</if></font>
-		<a href="{:U('Home/Student/index')}"><img width="40px" height="50px" src="__PUBLIC__/Admin/Image/tubiao1.jpg" style="position:absolute;right:115px;top:6px"></a>
-		<a href="{:U('Index/loginout')}"><img width="40px" height="50px" src="__PUBLIC__/Admin/Image/tubiao2.jpg" style="position:absolute;right:45px;top:6px"></a>
+		<a href="<{:U('Home/Student/index')}>"><img width="40px" height="50px" src="__PUBLIC__/Admin/Image/tubiao1.jpg" style="position:absolute;right:115px;top:6px"></a>
+		<a href="<{:U('Index/loginout')}>"><img width="40px" height="50px" src="__PUBLIC__/Admin/Image/tubiao2.jpg" style="position:absolute;right:45px;top:6px"></a>
 	</div>
 </div>

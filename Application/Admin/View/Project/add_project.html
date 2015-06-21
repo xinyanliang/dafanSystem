@@ -6,12 +6,12 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>{:C('ADMINTITLE')}</title>
+  <title><{:C('ADMINTITLE')}></title>
   <load file="__PUBLIC__/Admin/Css/common.css" /> 
  </head>
  <body>
 	<if condition="$Think.session.role neq '老师'">
-		{:redirect(U('Index/index'))}
+		<{:redirect(U('Index/index'))}>
 	<else />
 		<div class="wrap">
 		    <include file="Public/top" />
@@ -19,10 +19,10 @@
 				<include file="Public/left" /> 
 				<div class="main">
 					<div class="shadow1 center main11">
-						 <a href="{:U('add_projects')}" class="tianjiaa selfa">批量导入项目信息</a>
+						 <a href="<{:U('add_projects')}>" class="tianjiaa selfa">批量导入项目信息</a>
 					</div>
 					<div  class="shadow1 center main2">
-						<form action="{:U('add_project')}" method="post" name="myform">
+						<form action="<{:U('add_project')}>" method="post" name="myform">
 						  <table width="70%"  border=1 cellspacing=0 bordercolor="#ccc" class="table_tr20">
 								<tr   align="middle"><td>项目名称：</td><td><input name="proname" style="margin-left:10px" value="" class="radius8 border1"></td></tr>
 								<tr   align="middle"><td>年级:</td><td><input name="grade" style="margin-left:10px" value="" class="radius8 border1"></td></tr>

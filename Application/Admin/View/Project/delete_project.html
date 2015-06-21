@@ -6,12 +6,12 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>{:C('ADMINTITLE')}</title>
+  <title><{:C('ADMINTITLE')}></title>
   <load file="__PUBLIC__/Admin/Css/common.css" /> 
  </head>
  <body>
 	<if condition="$Think.session.role neq '老师'">
-		{:redirect(U('Index/index'))}
+		<{:redirect(U('Index/index'))}>
 	<else />
 		<include file="Public/top" /> 
 		<div class="con">

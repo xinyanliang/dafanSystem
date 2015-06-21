@@ -6,7 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <title>{:C('TITLE')}</title>
+  <title><{:C('TITLE')}></title>
   <load file="__PUBLIC__/Home/Css/common.css" /> 
   <style>
 	.fontheight{inline-height:20px}
@@ -15,7 +15,7 @@
  </head>
  <body>
 	<empty name="Think.session.user_id">
-		{:redirect('Index/index');}
+		<{:redirect('Index/index');}>
 	<else /> 
 		<div class="wrap">
 		    <include file="Public/top" />
