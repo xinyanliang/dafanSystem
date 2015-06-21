@@ -22,7 +22,7 @@ return array(
 	'STUDENT_WEIGHT'  =>  0.4, 
 	//
 	'ADMINTITLE'=>"打分吧！同学后台管理",
-	'TITLE'=>"打分吧！同学"
+	'TITLE'=>"打分吧！同学",
 	
 	'TMPL_L_DELIM'          =>  '<{',            // 模板引擎普通标签开始标记
 	'TMPL_R_DELIM'          =>  '}>',            // 模板引擎普通标签结束标记
