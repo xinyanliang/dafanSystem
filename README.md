@@ -38,3 +38,8 @@ Copyright:xinyanliang  qianguo<br/>
 		<li>5.1相关资料下载</li>
 	</ul>
 </ul>
+
+<h2>更新日志:</h2>
+<pre>
+2015.6.21:增加了通过Ajax获取项目
+</pre>
