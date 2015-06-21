@@ -5,8 +5,8 @@ Email:lxy19890408@126.com<br/>
 Copyright:xinyanliang  qianguo<br/>
 
 
-功能模块：
-前端<br/>                                                   
+功能模块:<br/> 
+前端                                                  
 <ul>
 <li>1.打分模块</li>
 </ul>
