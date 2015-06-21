@@ -1,8 +1,10 @@
-dafanSystem<br/>
-Author:xinyanliang<br/>
-Data:2015.6.20<br/>
-Email:lxy19890408@126.com<br/>
-Copyright:xinyanliang  qianguo<br/>
+<pre>
+dafanSystem(打分系统)
+Author:xinyanliang（梁新彦）
+Data:2015.6.20
+Email:lxy19890408@126.com
+Copyright:xinyanliang
+</pre>
 
 
 <h2>功能模块:</h2>
