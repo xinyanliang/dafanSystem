@@ -12,15 +12,24 @@ class StudentController extends Controller {
 		$Project = M("pro");
 		$map['flag']  = 1;
 		$result =$Project->where($map)->select();
-		//$data['status']  = 1;
-		//$data['content'] = 'xinyan';
-		//$this->ajaxReturn($data);
 		$this->assign('projectData',$result);
 		
 		//获取参数
 		$Config = M("config");
 		$configResult =$Config->select();
 		$this->assign('configData',$configResult[0]);
+		
+	    //如果该用户已经给项目打过分就不能获取信息
+		$Score = M("score");
+		$map1['user_id']  = session('user_id');
+		$map1['pro_id']=$result[0]['pro_id'];
+		$resultScore =$Score->where($map1)->select();
+		if($resultScore){//已打过分
+			$this->assign('comment_flag',1);
+			$this->assign('info',"您已经参与过该项目的评分！！！");
+		}else{
+			$this->assign('comment_flag',0);
+		}
 		$this->display('index');
 	}
 	
@@ -37,15 +46,13 @@ class StudentController extends Controller {
 			$resultScore =$Score->where($map1)->select();
 			if($resultScore){//获取过跳转到finishscore页面
 				$this->assign('info',"您已经参与过该项目的评分！！！");
-				$this->display('finishscore');
 			}else{//没获取过跳转到index
 				$this->assign('projectData',$result);
-				$this->display('index');
 			}
 		}else{
 			$this->assign('projectData',$result);
-		    $this->display('index');
 		}
+		 $this->display('index');
 	}
 	//评分完成后跳转的页面控制器
 	 public function finishscore(){
@@ -128,5 +135,29 @@ class StudentController extends Controller {
 				$this->success('原密码不正确',U('edit_password'));	
 			}	
 		}		
+	}
+	
+	//如果该用户已经给项目打过分就不能获取信息
+	public function ajax_return_pro_info(){
+		$Score = M("score");
+		$map['flag']  = 1;
+		$Project = M("pro");
+		$result =$Project->where($map)->select();
+		$map1['user_id']  = session('user_id');
+		$map1['pro_id']=$result[0]['pro_id'];
+		$resultScore =$Score->where($map1)->select();
+		if($resultScore){//获取过跳转到finishscore页面
+			$this->assign('info',"您已经参与过该项目的评分！！！");
+			$this->redirect('finishscore');
+		}else{//没获取过跳转到index
+			$Project = M("pro");
+			$map['flag']  = 1;
+			$result =$Project->where($map)->select();
+			$data['proname']  = $result[0]['proname'];
+			$data['pro_id']  = $result[0]['pro_id'];
+			$data['grade']  = $result[0]['grade'];
+			$data['group']  = $result[0]['group'];
+			$this->ajaxReturn($data);
+		}
 	}
 }

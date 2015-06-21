@@ -59,40 +59,50 @@
 		<{:redirect('Index/index');}>
 	<else /> 
 		<div class="wrap">
-		    <include file="Public/top" />
-			<div class="con">
-				<include file="Public/left" /> 
-				<div class="main">
-					<div  class="shadow1 center main1" style="position:relative">
-						现在评测的是<font color="#f00" style="font-size:20px;font-family:'华文行楷'" size="5"><{$projectData[0]['group']}></font>组项目：<br/>
-						<font color="#f00"  style="font-size:20px;font-family:'华文行楷'" size="4"><b>&nbsp<{$projectData[0]['proname']}></b></font><br/>
-						<a href=<{:U('Student/get_project')}>><img src="__PUBLIC__/Home/Image/huoqu.jpg" style="display:block;position:absolute;right:80px;bottom:10px;width:100px;height:80px" title="获取项目"></a>
-					</div>
-					<div  class="shadow1 center main2" >
-					    <form name="myform" action="<{:U('score')}>" method="post">
-						  <table width="500px"  border=1 cellspacing=0 bordercolor="#f00" class="table_tr20">
-							<tr align="middle"><th>项目名称</th><th>年级</th><th>组号</th></tr>
-							<foreach name="projectData" item="vo" >
-								<tr   align="middle">
-								    <input type="hidden" name="pro_id" value="<{$vo['pro_id']}>"/>
-									<td><{$vo['proname']}></td>
-									<td><{$vo['grade']}></td>
-									<td><{$vo['group']}></td>
-								</tr>
-							</foreach>	
-						  </table>
-						  <div class="magtop5" style="margin-top:50px"></div>
-						  <div class="radius border1" style="width:440px;padding:20px 30px;background:#31c8f5">
-							<label style="font-size:14px;color:#f00;font-weight:700">分数:</label>
-							 <input  style="border:2px solid #0055f0;height:20px;width:80px;line-height:20px;font-size:20px;color:#f00;text-align:center;outline:none;" type="text" name="score" placeholder="打分"  class="radius8"/>
+		    <include file="Public/left" /> 
+				<!--如果未评论过，显示下面代码-->
+				<if condition="$comment_flag eq 0">
+					<div class="main">
+						<div  class="shadow1 center main1" style="position:relative">
+							现在评测的是<font color="#f00" style="font-size:20px;font-family:'华文行楷'" size="5" id="group"><{$projectData[0]['group']}></font>组项目：<br/>
+							<font color="#f00"  style="font-size:20px;font-family:'华文行楷'" size="4"><b id="proname"><{$projectData[0]['proname']}></b></font><br/>
+							<a href=<{:U('Student/get_project')}>><img src="__PUBLIC__/Home/Image/huoqu.jpg" style="display:block;position:absolute;right:80px;bottom:10px;width:100px;height:80px" title="获取项目"></a>
+						</div>
+						<div  class="shadow1 center main2" >
+							<form name="myform" action="<{:U('score')}>" method="post">
+							  <table width="500px"  border=1 cellspacing=0 bordercolor="#f00" class="table_tr20">
+								<tr align="middle"><th>项目名称</th><th>年级</th><th>组号</th></tr>
+									<tr   align="middle">
+										<input type="hidden" name="pro_id" value="<{$projectData[0]['pro_id']}>"/>
+										<td class="td1"><{$projectData[0]['proname']}></td>
+										<td class="td2"><{$projectData[0]['grade']}></td>
+										<td class="td3"><{$projectData[0]['group']}></td>
+									</tr>
+							  </table>
+							  <div class="magtop5" style="margin-top:50px"></div>
+							  <div class="radius border1" style="width:440px;padding:20px 30px;background:#31c8f5">
+								<label style="font-size:14px;color:#f00;font-weight:700">分数:</label>
+								 <input  style="border:2px solid #0055f0;height:20px;width:80px;line-height:20px;font-size:20px;color:#f00;text-align:center;outline:none;" type="text" name="score" placeholder="打分"  class="radius8"/>
+								 <div class="magtop5" ></div>
+								 <textarea rows="5" cols="56" name="comment" value="" placeholder="分数大于95或小于70，必须写出原因(原因必须大于8个字)！！" style="border:2px solid #0055f0;background:#fff;padding:5px 10px;outline:none;"  class="radius" ></textarea><br/>
+							 </div>					  
 							 <div class="magtop5" ></div>
-							 <textarea rows="5" cols="56" name="comment" value="" placeholder="分数大于95或小于70，必须写出原因(原因必须大于8个字)！！" style="border:2px solid #0055f0;background:#fff;padding:5px 10px;outline:none;"  class="radius" ></textarea><br/>
-						 </div>					  
-					     <div class="magtop5" ></div>
-						 <a href="#"  class="tijiao" style="padding-left:450px;"><img src="__PUBLIC__/Home/Image/dafen.jpg" style="width:50px;height:50px;" align="bottom"></a>						  </div>
-						</form>
+							 <a href="#"  class="tijiao" style="padding-left:450px;"><img src="__PUBLIC__/Home/Image/dafen.jpg" style="width:50px;height:50px;" align="bottom"></a>						  </div>
+							</form>
+						</div>
 					</div>
-			</div>
+				<else/><!--如果已评论过，显示下面代码-->
+					<div class="main">
+						<div  class="shadow1 center main1" style="position:relative">
+							谢谢您给<font color="#f00" size="5"><{$projectData[0]['group']}></font>组项目评分<br/>
+							<font color="#f00" size="4"><b>&nbsp<{$projectData[0]['proname']}></b></font><br/>
+							<a href=<{:U('get_project')}>><img src="__PUBLIC__/Home/Image/huoqu.jpg" style="display:block;position:absolute;right:80px;bottom:10px;width:80px;height:50px" title="获取项目"></a>
+						</div>
+						<div  class="shadow1 center main2" >
+						   <{$info}>
+						</div>
+					</div>
+				</if>
 			<div class="clear"></div>
 		</div>
 		<include file="Public/foot" /> 
