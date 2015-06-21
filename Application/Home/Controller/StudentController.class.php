@@ -16,6 +16,11 @@ class StudentController extends Controller {
 		//$data['content'] = 'xinyan';
 		//$this->ajaxReturn($data);
 		$this->assign('projectData',$result);
+		
+		//获取参数
+		$Config = M("config");
+		$configResult =$Config->select();
+		$this->assign('configData',$configResult[0]);
 		$this->display('index');
 	}
 	
