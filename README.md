@@ -15,8 +15,8 @@ Copyright:xinyanliang
 <h3>后端 </h3>                                                      
 <ul>
 	<li>1.系统设置</li>
+	<li>2.学生信息管理</li>
 	<ul>
-		<li>2.学生信息管理</li>
 		<li>2.1学生列表</li>
 		<li>2.2添加学生</li>
 		<li>2.3查询学生</li>
